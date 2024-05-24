@@ -1,4 +1,4 @@
-Frontend Mentor - Single-page developer portfolio solution
+     Frontend Mentor - Single-page developer portfolio solution
 This is a solution to the Single-page developer portfolio challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 Table of contents
@@ -27,6 +27,7 @@ Links
 Solution URL: Add solution URL here
 Live Site URL: Add live site URL here
 My process
+
 Built with
 Semantic HTML5 markup
 CSS custom properties
@@ -34,7 +35,9 @@ Flexbox
 CSS Grid
 Vanilla Javascript
 Mobile-first workflow
+
 What I learned
+ In CSS
  #header {
     background-image: url(./assets/images/image-profile-desktop.webp);
     background-size: 30%;
@@ -48,6 +51,8 @@ What I learned
     gap: 40px;
     padding: 10px 10%;
 }
+
+In javascript
 const sideMenu = document.getElementById("sidemenu");
 
 function openmenu() {
@@ -57,6 +62,8 @@ function openmenu() {
 function closemenu() {
     sideMenu.style.right = "-200px";
 }
+
+Lessons Learned.
 I learned about background-size. I didn't understand background sizes could be changed, but to get the accuracy of how this project was designed, I discovered there were other ways of using background size to reduce the width of the background image. I also learned about background-image. Which I used to get the correct placement for the image.
 
 I also learned more about css grid works. I understood it more working on the experience section to get the arrangement of the project images. How grid-template-columns work and it specify sizing functions of grid column. MDN Docs was a huge help for this project.
@@ -68,9 +75,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 I want to later use this project to make my own portfolio website. I want to add my vibrancy to some images and complete its responsiveness much more
 
-Useful resources
+
+Useful resources.
 MDN Docs - This helped me for understand grid-columns a lot better. I really liked this pattern and will use it going forward.
 MDN Docs - It really helped me understand background-images, background-size a lot better.
+
 Author
 Website - Daniel-C-Igbokwe
 Frontend Mentor - @Daniel-C-Igbokwe
