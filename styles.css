@@ -11,11 +11,12 @@ body {
 }
 
 #header {
-    background-image: url(./assets/images/image-profile-desktop.webp);
+    background-image: url(./assets/images/My\ picture.jpeg);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: bottom 40px right 100px;
     position: relative;
+    border-radius: 40px;
 }
 
 nav {
@@ -64,7 +65,7 @@ nav .uil {
 @media only screen and (max-width: 600px)
 { 
     #header {
-        background-image: url(./assets/images/image-profile-mobile.webp);
+        background-image: url(./assets/images/new\ profile.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -166,6 +167,10 @@ nav .uil {
 }
 
 @media screen and (max-width: 600px) {
+    nav {
+        padding: 2rem ;
+    }
+
     .intro {
         position: absolute;
         top: 50%;
@@ -247,7 +252,7 @@ nav .uil {
     padding-top: 20px;
 }
 
-.wrapper h5 {
+.wrapper h5 a{
     text-transform: uppercase;
     font-size: clamp(1rem, 1.4vw, 3rem);
 }
